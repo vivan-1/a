@@ -1,41 +1,4 @@
 
-# coding: utf-8
-
-# 
-# <font color = "mediumblue">Note: Notebook was updated July 2, 2019 with bug fixes.</font>
-# 
-# #### If you were working on the older version:
-# * Please click on the "Coursera" icon in the top right to open up the folder directory.  
-# * Navigate to the folder: Week 3/ Planar data classification with one hidden layer.  You can see your prior work in version 5: Planar data classification with one hidden layer v5.ipynb
-# 
-# #### List of bug fixes and enhancements
-# * Clarifies that the classifier will learn to classify regions as either red or blue.
-# * compute_cost function fixes np.squeeze by casting it as a float.
-# * compute_cost instructions clarify the purpose of np.squeeze.
-# * compute_cost clarifies that "parameters" parameter is not needed, but is kept in the function definition until the auto-grader is also updated.
-# * nn_model removes extraction of parameter values, as the entire parameter dictionary is passed to the invoked functions.
-
-# # Planar data classification with one hidden layer
-# 
-# Welcome to your week 3 programming assignment. It's time to build your first neural network, which will have a hidden layer. You will see a big difference between this model and the one you implemented using logistic regression. 
-# 
-# **You will learn how to:**
-# - Implement a 2-class classification neural network with a single hidden layer
-# - Use units with a non-linear activation function, such as tanh 
-# - Compute the cross entropy loss 
-# - Implement forward and backward propagation
-# 
-
-# ## 1 - Packages ##
-# 
-# Let's first import all the packages that you will need during this assignment.
-# - [numpy](https://www.numpy.org/) is the fundamental package for scientific computing with Python.
-# - [sklearn](http://scikit-learn.org/stable/) provides simple and efficient tools for data mining and data analysis. 
-# - [matplotlib](http://matplotlib.org) is a library for plotting graphs in Python.
-# - testCases provides some test examples to assess the correctness of your functions
-# - planar_utils provide various useful functions used in this assignment
-
-# In[1]:
 
 # Package imports
 import numpy as np
